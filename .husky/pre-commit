@@ -1,4 +1,0 @@
-#!/bin/sh
-
-# Run linting before commit
-yarn lint && yarn prettier:check
