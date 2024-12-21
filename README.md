@@ -1,18 +1,42 @@
-# Vue 3 + TypeScript + Vite
+# Flipkart tracking ID Assistant
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a simple Application helps you to track your Flipkart Seller tracking ID.
 
-## Recommended IDE Setup
+## How to use
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+1. visit [Track Hero](virusxtech.github.io/track-hero/)
+2. upload the tracking ID file
+3. scan the tracking ID
+4. get the missing tracking ID
 
-## Type Support For `.vue` Imports in TS
+## How to contribute
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+1. Fork the repository
+2. Clone the repository
+3. Create a new branch
+4. Make necessary changes
+5. Commit the changes
+6. Push the changes
+7. Create a pull request
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## How to run the project
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+1. Clone the repository
+2. Open the terminal
+3. Run the following command
+
+```bash
+yarn
+yarn dev
+```
+
+## How to build the project
+
+1. Clone the repository
+2. Open the terminal
+3. Run the following command
+
+```bash
+yarn
+yarn build
+```
