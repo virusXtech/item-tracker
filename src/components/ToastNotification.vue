@@ -29,12 +29,14 @@
 
 <script lang="ts">
 export default {
-  name: 'Notification',
+  name: 'ToastNotification',
 }
 </script>
 
 <script setup lang="ts">
-defineProps({
+import { toRefs, watch } from 'vue'
+
+const props = defineProps({
   show: {
     type: Boolean,
     required: true,
@@ -47,4 +49,14 @@ defineProps({
   },
 })
 const emit = defineEmits(['hide'])
+
+const { show } = toRefs(props)
+
+watch(show, value => {
+  if (value) {
+    setTimeout(() => {
+      emit('hide')
+    }, 3000)
+  }
+})
 </script>
